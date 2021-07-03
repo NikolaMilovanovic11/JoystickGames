@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joystick games | Games</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+
+</head>
+
+<body>
+    <div class="header" id="header">
+        <div class="logo">
+            <a href="index.html"><img src="./images/joystick-logo.webp" width="100px"></a>
+        </div>
+        <div class="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="games.html">Games</a></li>
+                <li><a href="equipments.html">Equipment</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="account.html">Account</a></li>
+                <li>
+                    <a href="shop.html"><i class="fas fa-shopping-bag"></i></a>
+                </li>
+            </ul>
+        </div>
+        <div class="drustvene_mreze">
+            <a href="" class="ikonica"><i class="fab fa-facebook fa-lg"></i></a>
+            <a href="" class="ikonica"><i class="fab fa-instagram fa-lg"></i></i></a>
+            <a href="" class="ikonica"><i class="fab fa-linkedin fa-lg"></i></a>
+            <a href="" class="ikonica"><i class="fab fa-youtube-square fa-lg"></i></a>
+        </div>
+        <a href="javascript:void(0);" class="toggle-icon" onclick="toggleNav()">
+            <i class="fa fa-bars fa-lg"></i>
+        </a>
+    </div>
+    <div class="container">
+
+        <!--All games-->
+        <div class="small-container">
+            <h2 class="naslov">All games</h2>
+            <div class="red">
+                <div class="kol-4">
+                    <div class="slika_4"><img src="./images/Sub Nautica.jpg"></div>
+                    <h4 class="naslov_igrice">Sub Nautica</h4>
+                    <div class="cena">
+                        <span>€85.00</span> <i class="fas fa-shopping-cart" onclick="addProduct(17)"></i>
+                    </div>
+                </div>
+                <div class="kol-4">
+                    <div class="slika_4"><img src="./images/riders_republic_game.jpg"></div>
+                    <h4 class="naslov_igrice">Riders republic</h4>
+                    <div class="cena">
+                        <span>€85.00</span> <i class="fas fa-shopping-cart" onclick="addProduct(18)"></i>
+                    </div>
+                </div>
+                <div class="kol-4">
+                    <div class="slika_4"><img src="./images/horizon_game.jpg"></div>
+                    <h4 class="naslov_igrice">Horizon</h4>
+                    <div class="cena">
+                        <span>€85.00</span> <i class="fas fa-shopping-cart" onclick="addProduct(19)"></i>
+                    </div>
+                </div>
+                <div class="kol-4">
+                    <div class="slika_4"><img src="./images/judgment_game.jpg"></div>
+                    <h4 class="naslov_igrice">Judgment</h4>
+                    <div class="cena">
+                        <span>€85.00</span> <i class="fas fa-shopping-cart" onclick="addProduct(20)"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="red">
+                <div class="kol-4">
+                    <div class="slika_4"><img src="./images/assassins_creed_game.jpg"></div>
+                    <h4 class="naslov_igrice">Assassins Creed Valhalla</h4>
+                    <div class="cena">
+                        <span>€85.00</span> <i class="fas fa-shopping-cart" onclick="addProduct(21)"></i>
+                    </div>
+                </div>
+                <div class="kol-4">
+                    <div class="slika_4"><img src="./images/avengers.jpg"></div>
+                    <h4 class="naslov_igrice">Avengers</h4>
+                    <div class="cena">
+                        <span>€85.00</span> <i class="fas fa-shopping-cart" onclick="addProduct(22)"></i>
+                    </div>
+                </div>
+                <div class="kol-4">
+                    <div class="slika_4"><img src="./images/scarlet_nexus_game.jpg"></div>
+                    <h4 class="naslov_igrice">Scarlet Nexus</h4>
+                    <div class="cena">
+                        <span>€85.00</span> <i class="fas fa-shopping-cart" onclick="addProduct(23)"></i>
+                    </div>
+                </div>
+                <div class="kol-4">
+                    <div class="slika_4"><img src="./images/wreckfest_game.jpg"></div>
+                    <h4 class="naslov_igrice">Wreckfest</h4>
+                    <div class="cena">
+                        <span>€85.00</span> <i class="fas fa-shopping-cart" onclick="addProduct(24)"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="red">
+                <div class="kol-4">
+                    <div class="slika_4"><img src="./images/dirt5_game.jpg"></div>
+                    <h4 class="naslov_igrice">Dirt 5</h4>
+                    <div class="cena">
+                        <span>€85.00</span> <i class="fas fa-shopping-cart" onclick="addProduct(25)"></i>
+                    </div>
+                </div>
+                <div class="kol-4">
+                    <div class="slika_4"><img src="./images/wrc9_game.JPG"></div>
+                    <h4 class="naslov_igrice">WRC 9</h4>
+                    <div class="cena">
+                        <span>€85.00</span> <i class="fas fa-shopping-cart" onclick="addProduct(26)"></i>
+                    </div>
+                </div>
+                <div class="kol-4">
+                    <div class="slika_4"><img src="./images/motogp21_game.jpg"></div>
+                    <h4 class="naslov_igrice">MotoGP 21</h4>
+                    <div class="cena">
+                        <span>€85.00</span> <i class="fas fa-shopping-cart" onclick="addProduct(27)"></i>
+                    </div>
+                </div>
+                <div class="kol-4">
+                    <div class="slika_4"><img src="./images/Outriders_game.jpg"></div>
+                    <h4 class="naslov_igrice">Outriders</h4>
+                    <div class="cena">
+                        <span>€85.00</span> <i class="fas fa-shopping-cart" onclick="addProduct(28)"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="red">
+                <div class="kol-4">
+                    <div class="slika_4"><img src="./images/resident_evil_village.jpg"></div>
+                    <h4 class="naslov_igrice">Resident Evil Village</h4>
+                    <div class="cena">
+                        <span>€85.00</span> <i class="fas fa-shopping-cart" onclick="addProduct(29)"></i>
+                    </div>
+                </div>
+                <div class="kol-4">
+                    <div class="slika_4"><img src="./images/gotham_knights_game.jpg"></div>
+                    <h4 class="naslov_igrice">Gotham Knights</h4>
+                    <div class="cena">
+                        <span>€85.00</span> <i class="fas fa-shopping-cart" onclick="addProduct(30)"></i>
+                    </div>
+                </div>
+                <div class="kol-4">
+                    <div class="slika_4"><img src="./images/evergate_game.jpg"></div>
+                    <h4 class="naslov_igrice">Evergate</h4>
+                    <div class="cena">
+                        <span>€85.00</span> <i class="fas fa-shopping-cart" onclick="addProduct(31)"></i>
+                    </div>
+                </div>
+                <div class="kol-4">
+                    <div class="slika_4"><img src="./images/spirit_of_the_north.jpg"></div>
+                    <h4 class="naslov_igrice">Spirith of the North</h4>
+                    <div class="cena">
+                        <span>€85.00</span> <i class="fas fa-shopping-cart" onclick="addProduct(32)"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="games-btn">
+                <span><a href="games.html">1</a></span>
+                <span><a href="games_page2.html">2</a></span>
+                <span><a href="games_page3.html">3</a></span>
+            </div>
+        </div>
+    </div>
+    <!--footer-->
+    <div class="footer">
+        <div class="footer-container">
+            <div class="red">
+                <div class="kol-3">
+                    <h3>Download Our App</h3>
+                    <span>Download App for Android and ios mobile phone.</span>
+                    <div class="app-logo">
+                        <a href="https://play.google.com/store/apps"><img src="./images/play-store.png"></a>
+                        <a href="https://www.apple.com/app-store/"><img src="./images/app-store.png"></a>
+                    </div>
+                </div>
+                <div class="kol-3">
+                    <div class="logo_footer"><img src="./images/joystick-logo.webp"></div>
+                    <p class="text-center">Joystick games</p>
+                </div>
+                <div class="kol-3">
+                    <h3 class="follow-us">Follow us</h3>
+                    <div class="drustvene_mreze footer_drustvene_mreze">
+                        <a href="https://www.facebook.com" class="ikonica"><i class="fab fa-facebook fa-lg"></i></a>
+                        <a href="https://www.instagram.com" class="ikonica"><i class="fab fa-instagram fa-lg"></i></i></a>
+                        <a href="https://www.linkedin.com" class="ikonica"><i class="fab fa-linkedin fa-lg"></i></a>
+                        <a href="https://www.youtube.com" class="ikonica"><i class="fab fa-youtube-square fa-lg"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <p class="Copyright">Copyright 2021</p>
+        </div>
+    </div>
+    <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+        <div id="liveToast" class="toast hide" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-body">
+                Product is added to cart.
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="./products.js"></script>
+<script src="./navigation.js"></script>
+
+</html>
